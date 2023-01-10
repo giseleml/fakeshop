@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF;
+  margin-top: 3rem;
+  height: 18rem;
+  width: 11rem;
+  cursor: pointer;
+  padding: 1rem 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem darkgray;
+  border-radius: 0.3rem;
+}
+
+.wrapper:hover {
+  font-weight: bold;
+}
+
+.wrapper img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.wrapper p {
+  color: #063970;
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+}
