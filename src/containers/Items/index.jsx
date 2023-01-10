@@ -18,12 +18,14 @@ const Items = ({ items }) => {
             picture={i.picture}
             text={i.title}
             id={i.id}
-            onClick={itemId => setShowCard(itemId)} />
+            onClick={itemId => setShowCard(itemId)}
+          />
         ))}
       {showCard && (
         <Card
           onClose={() => setShowCard(false)}
-          item={items.find(i => i.id === showCard)} />
+          item={items.find(i => i.id === showCard)}
+        />
       )}
     </div>
   );
